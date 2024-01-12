@@ -33,10 +33,5 @@ public class Ex11_5 {
         * HashSet과 TreeSet이 공통으로 가지고있는 메서드로 차후 코드들을 작성하면
         * new HashSet() <-> new TreeSet()부분만 고쳐도 실행이 잘 된다.
         * */
-
-
-
-
-
     }
 }
