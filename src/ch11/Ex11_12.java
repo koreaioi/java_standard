@@ -45,7 +45,7 @@ public class Ex11_12 {
         while(it.hasNext()){
             setHab.add(it.next());
         }
-
+ 
         /*
         * setA.retainAll(setB) //교집합. 공통된 요소만 남기고 삭제
         * setA.addAll(setB)    //합집합. setB의 모든 요소를 추가(중복 제외)
