@@ -11,10 +11,8 @@ public class Ex11_17 {
         map.put("안자바", new Integer(90));
 
 
-
-
-
         //key와 value가 한쌍으로 묶인게 entry이고 이를 set으로 저장
+        //Entry는 Map안에 있는 인터페이스이다.
         Set set = map.entrySet();
         Iterator it = set.iterator();
 
@@ -38,10 +36,6 @@ public class Ex11_17 {
         System.out.println("평균: " + (float) total / set.size());
         System.out.println("최고점수: " + Collections.max(values));
         System.out.println("최저점수: " + Collections.min(values));
-
-
-
-
-
+        //컬렉션들 중에서 가장 큰 값, 작은 값 (Comparable을 구현한 클래스 객체)
     }
 }
